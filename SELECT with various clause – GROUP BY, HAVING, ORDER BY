@@ -1,0 +1,10 @@
+GROUP BY – HAVING:	
+
+SELECT
+c1, c2,...,cn, aggregate_function(ci)
+FROM
+table
+WHERE
+where_conditions
+GROUP BY c1 , c2,...,cn
+HAVING conditionS
