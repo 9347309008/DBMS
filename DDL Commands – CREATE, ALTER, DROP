@@ -1,0 +1,23 @@
+Syntax:
+Create table <table name> (<col1> <datatype>(<size>),<col2> <datatype><size>));
+2. Modifying the structure of tables.
+a) Add new columns
+Syntax:
+Alter table <tablename> add(<new col><datatype(size),<new col>datatype(size));
+b) Dropping a column from a table.
+Syntax:
+Alter table <tablename> drop column <col>;
+Ex:alter table emp drop column sal;
+3. Modifying existing columns.
+Syntax:
+Alter table <tablename> modify(<col><newdatatype>(<newsize>));
+4. Renaming the tables
+Syntax:
+Rename <oldtable> to <new table>;
+5. Truncating the tables.
+Syntax:
+Truncate table <tablename>;
+Ex:trunc table emp1;
+6. Destroying tables.
+Syntax:
+Drop table <tablename>;
