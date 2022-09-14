@@ -1,0 +1,42 @@
+[17:23, 9/14/2022] Kalyan Roommate: INSERT INTO table_name
+VALUES (value1, value2, value3,...);
+
+( or )
+
+INSERT INTO table_name (column1, column2, column3,...)
+VALUES (value1, value2, value3,...);
+
+UPDATE:
+
+UPDATE table_name
+
+SET column1=value, column2=value2,...
+WHERE some_column=some_value;
+
+DELETE:
+
+DELETE FROM table_name
+
+WHERE some_column=some_value;
+
+SELECT:
+
+SELECT column_name(s)
+
+FROM table_name;
+[17:30, 9/14/2022] Kalyan Roommate: SELECT
+column_1, column_2, ...
+
+FROM
+
+table_1
+[INNER | LEFT |RIGHT] JOIN table_2 ON conditions
+WHERE
+
+conditions
+
+GROUP BY column_1
+HAVING group_conditions
+
+ORDER BY column_1
+LIMIT offset, length;
