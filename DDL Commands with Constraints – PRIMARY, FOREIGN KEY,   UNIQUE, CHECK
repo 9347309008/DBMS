@@ -1,0 +1,13 @@
+ Syntax:
+ Create table tablename (column_name1 data_ type constraints, column_name2 data_ type 
+ constraints …)
+ Exercise Questions:
+1. Create a table called EMP with the following structure. 
+Name Type
+---------- ----------------------
+EMPNO NUMBER(6) 
+ENAME VARCHAR2(20) 
+JOB VARCHAR2(10) 
+DEPTNO NUMBER(3) 
+SAL NUMBER(7,2)
+Allow NULL for all columns except ename and job
